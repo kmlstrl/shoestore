@@ -6,12 +6,23 @@
 }
 
 body {
+    
+    background-color: beige;
 
-    background-color: aliceblue;
 }
 
-header {
+.nav-links {
 
-    background-color: pink;
+        flex: 1;
+        text-align: right;
+        
+
 }
 
+.nav-links ul li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 15px 12px;
+    position: relative;
+}
