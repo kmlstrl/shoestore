@@ -1,29 +1,47 @@
-* {
-
-    margin: 0;
-    padding: 0;
-
-}
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
+
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+
+    background-color: #C4A484;
+    color: white;
+    padding: 20px 50px;
+
+}
+
+.nav-top {
     
-    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
-.nav-links {
+.search {
 
-        flex: 1;
-        text-align: right;
-        background-color: brown;
-        
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.search-input {
+
+    border: none;
+    background-color: transparent;
 
 }
 
-.nav-links ul li {
+.search-input::placeholder {
 
-    list-style: none;
-    display: inline-block;
-    padding: 15px 12px;
-    position: relative;
+    color: lightgray;
 }
+
