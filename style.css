@@ -45,3 +45,17 @@ nav {
     color: lightgray;
 }
 
+.nav-bottom {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-menu {
+
+    margin-right: 50px;
+    cursor: pointer;
+    color: beige;
+}
+
