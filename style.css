@@ -10,7 +10,7 @@ body {
 
 nav {
 
-    background-color: #C4A484;
+    background-color: lightgray;
     color: white;
     padding: 20px 50px;
 
@@ -56,6 +56,79 @@ nav {
 
     margin-right: 50px;
     cursor: pointer;
-    color: beige;
+    color: black; 
+    font-weight: 300;
 }
 
+
+.slider {
+
+    background-color: white;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+
+    display: flex;
+    width: 500vw;
+}
+
+.slider-item {
+
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.slider-background {
+
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.slider-img {
+
+    z-index: 1;
+}
+
+
+.slider-title {
+
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    font-size: 50px;
+    font-weight: 800;
+    color: Black;
+    z-index: 1;
+}
+
+.slider-price {
+
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+    z-index: 1;
+}
+
+.buy-button {
+
+    position: absolute;
+    top: 50%;
+    right: 18%;
+    font-size: 40px;
+    font-weight: 50;
+    text-align: center;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+}
