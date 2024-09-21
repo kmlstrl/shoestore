@@ -111,8 +111,8 @@ nav {
 .slider-price {
 
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 40%;
+    right: 18%;
     font-size: 40px;
     font-weight: 300;
     text-align: center;
@@ -123,12 +123,13 @@ nav {
 .buy-button {
 
     position: absolute;
-    top: 50%;
-    right: 18%;
-    font-size: 40px;
-    font-weight: 50;
+    top: 52%;
+    right: 25%;
+    font-size: 15px;
+    font-weight: 250;
     text-align: center;
     color: black;
     z-index: 1;
     cursor: pointer;
+    border-radius: 5px;
 }
